@@ -161,6 +161,40 @@ fixed的定位对象和absolute一样
 
 
 
+## 行级元素和块级元素
+
+1. 行级元素（==inline==）
+
+   `feature:`内容决定元素所占位置不可以通过css改变宽高
+
+   `常见行级标签：`span, strong, em, a, del
+
+2. 块级元素(==block==)
+
+   `feature：`独占一行，可以通过css改变宽高
+
+   `常见块级标签：`div, p, ul, li, ol, form, address 
+
+3. 行块级元素(==inline-block==)
+
+   `feature：`内容决定大小，可以改变宽高
+
+   `常见标签：`img
+
+
+
+## 提醒：
+
+​	行级元素只能套行级元素
+
+​	块级元素可以套任何元素
+
+​	p标签不能套块级元素
+
+​	a标签不能套a标签
+
+
+
 ## margin塌陷
 
 使用margin-top时，父级随子元素一起移动
@@ -259,18 +293,6 @@ em
 ![](https://github.com/whg20001/blog-image/blob/main/img/Snipaste_2022-10-23_10-48-40.png?raw=true)
 
 第二种将文字通过缩进和不换行属性移动到框外然后使用隐藏特性
-
-
-
-## 提醒：
-
-​	行级元素只能套行级元素
-
-​	块级元素可以套任何元素
-
-​	p标签不能套块级元素
-
-​	a标签不能套a标签
 
 
 
