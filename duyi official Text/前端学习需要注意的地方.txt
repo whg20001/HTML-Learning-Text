@@ -1,0 +1,8 @@
+1. 关于表单：HTML+CSS收官+JS收官（WebAPI-事件+WebAPI-默认事件）
+
+
+2.
+	 visibility:hidden      生成盒子，不显示
+	display：none; 	不生成盒子
+	opacity：生成盒子，不显示，但是可以触发点击等事件
+
